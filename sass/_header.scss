@@ -1,0 +1,12 @@
+.header {
+
+  &__main {
+    background-color: $color-gray-dark-1;
+    grid-column: full-start / col-end 6;
+  }
+
+  &__sub {
+    background-color: $color-secondary;
+    grid-column: col-start 7 / full-end;
+  }
+}
